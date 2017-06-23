@@ -1,4 +1,4 @@
-# Python practices
+# Python practice
 
 启发于GeekComputers的[My python examples](https://github.com/geekcomputers/Python).
 
