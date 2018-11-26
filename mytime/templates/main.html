@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Time Flying</title>
+  <style type="text/css">
+  *{
+  padding: 0;
+  margin: 0;
+}
+html, body, .container{
+   height: 100%;
+}
+.container{
+   background: #1a1a1a;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  flex-wrap: wrap;
+}
+.container h1{
+   font-size: 120px;
+   width: 760px;
+   align-self: flex-end;
+}
+.container p{
+   width: 100%;
+   align-self: flex-end;
+   margin-bottom: 35px;
+   text-align: center;
+   animation: fade 5s;
+   letter-spacing: 1px;
+   font-size: 18px;
+   color: #9b9b9b;
+}
+
+@keyframes fade{
+  0% {
+    opacity: 0;
+  }
+  20%{
+    opacity: 1;
+  }
+  80%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="time">
+
+    </h1>
+    <script>
+var el = document.getElementById('time');
+var birth = new Date('1995-09-1').getTime();
+var now;
+var pass;
+var clock;
+
+function computeYears() {
+  now = new Date().getTime();
+  pass = (now - birth) / 31536000000;
+
+  el.innerText = pass.toFixed(8);
+}
+clock = setInterval(computeYears, 1);
+
+    </script>
+    <p class="alert">
+       {{ quote }}
+    </p>
+  </div>
+</body>
+</html>
