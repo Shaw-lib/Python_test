@@ -1,11 +1,6 @@
 # Python practice
 
-启发于GeekComputers的[My python examples](https://github.com/geekcomputers/Python).
-
-这个仓库会存一些我在学Python时写的小玩意。（没啥用的。。。
-
-QQ：584927688
-
+随便敲敲
 
 ## 介绍
 - [guessNum.py](https://github.com/Shaw-lib/Python_test/blob/master/guessNum.py) - 一个猜数字小游戏，利用二分法猜出你心中的那个秘密数字。
