@@ -18,3 +18,5 @@
 - [ziroom_watcher.py](https://github.com/shaoxyz/python_learning_notes/blob/master/ziroom_watcher.py) - 租房子的时候写的自如爬虫脚本
 
 - [try_async.py](https://github.com/shaoxyz/python_learning_notes/blob/master/try_async.py) - 从异步开始复习复习基础
+
+- [aes.py](https://github.com/shaoxyz/python_learning_notes/blob/master/aes.py) - 一个aes加密的完整实例
